@@ -13,6 +13,7 @@ lazy val root = (project in file("."))
 
       Seq(
         "dev.zio"          %% "zio"                            % "1.0.15",
+        "dev.zio"          %% "zio-streams"                    % "1.0.15",
         "dev.zio"          %% "zio-interop-cats"               % "3.2.9.1",
         "io.circe"         %% "circe-generic"                  % "0.14.2",
         "org.typelevel"    %% "cats-effect"                    % "3.3.12",
